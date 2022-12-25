@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+h1,
+p {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+
+.web {
+  width: 101px;
+  height: 16px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #111010;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.new-det {
+  display: flex;
+  flex-direction: row;
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.form {
+  position: fi;
+  height: 40vh;
+  width: 30vh;
+  background-color: white;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+.gender {
+  display: flex;
+  float: left;
+  flex-direction: row;
+}
+
+.get-details {
+  margin-top: 20px;
+  height: 40vh;
+  width: 30vh;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: justify;
+  box-shadow: 5px 5px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+a {
+  text-decoration: none;
+  color: #111010;
+}
+
+a:hover {
+  color: blue;
+}
+
+.name-details,
+.email-details,
+.web-details,
+.gender-details,
+.stack {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+body {
+  background: #eee;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  padding: 0 16px;
+}
+
+
+button {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
